@@ -1,0 +1,42 @@
+html, body {
+    min-width: 100%;
+    min-height: 100%;
+    background: url(../images/mma-silva.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: crimson;
+}
+
+
+#ufc-trivia {
+    height: 5rem;
+}
+.card {
+    visibility: hidden;
+}
+.radio-buttons {
+    visibility: hidden;
+}
+#submit-button {
+    position: relative;
+    left: 45%;
+    visibility: hidden;
+}
+#next-button {
+    position: relative;
+    left: 33%;
+    visibility: hidden;
+}
+#restart-button {
+    position: relative;
+    left: 20%;
+    visibility: hidden;
+}
